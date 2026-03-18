@@ -1,0 +1,6 @@
+version: 1
+scenario: generic
+patterns:
+  - id: GP001
+    title: 通用业务链路
+    description: 目标输入 -> 规则校验 -> 核心处理 -> 异常分支 -> 结果输出 -> 记录归档

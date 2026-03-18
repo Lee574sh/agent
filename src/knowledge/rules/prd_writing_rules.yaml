@@ -1,0 +1,9 @@
+version: 1
+type: agent_rules
+agent: PRD_Composer_Worker
+rules:
+  - id: P001
+    title: 严格按章节展开
+    description: PRD必须有版本记录、业务背景、全局交互流、核心功能模块详细需求及验收标准。
+    priority: high
+    enabled: true

@@ -1,0 +1,10 @@
+version: 1
+scenario: csr
+patterns:
+  - id: CP001
+    title: CSR报告典型系统链路
+    description: 报告模板定义 -> 材料分批异步上传与抽取 -> 章节内容映射 -> AI结构化生成与组装 -> Human-in-the-loop核对校验 -> 版本迭代与归档发布
+
+  - id: CP002
+    title: CSR审查节点逻辑
+    description: 数据溯源必须附带原文页面锚点，任何合规披露需支持人工打回重跑逻辑。

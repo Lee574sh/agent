@@ -1,0 +1,9 @@
+version: 1
+type: agent_rules
+agent: Stage_Model_Producer
+rules:
+  - id: B001
+    title: 闭环与分支
+    description: 必须包含正向主流程与关键的异常回滚/阻断流。
+    priority: high
+    enabled: true

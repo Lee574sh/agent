@@ -1,0 +1,13 @@
+version: 1
+type: style
+style:
+  tone: formal_professional
+  structure: highly_structured
+  prefers_tables: true
+  prefers_flow_before_details: true
+  prefers_logic_explicit: true
+  detail_level: high
+  avoid:
+    - 空泛描述
+    - 只有结论没有过程
+    - 功能点之间缺少关联

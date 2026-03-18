@@ -1,0 +1,10 @@
+version: 1
+scenario: recruiting
+patterns:
+  - id: RP001
+    title: 招聘场景常见业务链路
+    description: 岗位创建 -> JD生成/优化 -> 渠道发布 -> 简历筛选 -> 面试安排 -> 评估 -> offer决策 -> 归档复盘
+
+  - id: RP002
+    title: 招聘场景常见playbook维度
+    description: 招聘负责人、用人经理、面试官、候选人、系统Agent在不同节点的协作方式

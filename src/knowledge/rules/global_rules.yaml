@@ -1,0 +1,48 @@
+version: 1
+type: global_rules
+rules:
+  - id: R001
+    title: 先业务流程后功能设计
+    description: 任何PRD输出前，必须先拆解业务流程，再进入功能定义。
+    priority: high
+    enabled: true
+    applies_to:
+      - Stage_Model_Producer
+      - Feature_Design_Worker
+      - PRD_Composer_Worker
+    tags:
+      - workflow
+      - structure
+
+  - id: R002
+    title: 先给流程图
+    description: 在功能清单之前，优先输出mermaid业务流程图或等价流程表达。
+    priority: high
+    enabled: true
+    applies_to:
+      - Stage_Model_Producer
+      - PRD_Composer_Worker
+    tags:
+      - visualization
+
+  - id: R003
+    title: 功能之间必须体现逻辑关系
+    description: 功能需求不能孤立罗列，需体现前后依赖、输入输出与协作关系。
+    priority: high
+    enabled: true
+    applies_to:
+      - Feature_Design_Worker
+      - PRD_Composer_Worker
+    tags:
+      - logic
+
+  - id: R004
+    title: 输出playbook
+    description: 需要定义不同角色在不同节点的动作、系统反馈和人机交互方式。
+    priority: high
+    enabled: true
+    applies_to:
+      - Feature_Design_Worker
+      - PRD_Composer_Worker
+    tags:
+      - mapping

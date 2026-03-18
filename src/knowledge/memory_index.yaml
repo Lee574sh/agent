@@ -1,0 +1,24 @@
+version: 1
+
+rules:
+  global:
+    - src/knowledge/rules/global_rules.yaml
+  agent_specific:
+    Stage_Model_Producer:
+      - src/knowledge/rules/business_flow_rules.yaml
+    Feature_Design_Worker:
+      - src/knowledge/rules/feature_design_rules.yaml
+    PRD_Composer_Worker:
+      - src/knowledge/rules/prd_writing_rules.yaml
+
+style:
+  global:
+    - src/knowledge/style/prd_style.yaml
+
+experience:
+  recruiting:
+    - src/knowledge/experience/recruiting/patterns.yaml
+  csr:
+    - src/knowledge/experience/csr/patterns.yaml
+  generic:
+    - src/knowledge/experience/generic/patterns.yaml

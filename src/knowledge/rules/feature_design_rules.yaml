@@ -1,0 +1,21 @@
+version: 1
+type: agent_rules
+agent: Feature_Design_Worker
+rules:
+  - id: F001
+    title: 功能清单必须结构化
+    description: 每个功能至少包括功能名称、目标、说明、依赖关系、优先级。
+    priority: high
+    enabled: true
+
+  - id: F002
+    title: 功能粒度适中
+    description: 功能不宜过粗，也不宜过碎，应能支持后续PRD逐章节展开。
+    priority: medium
+    enabled: true
+
+  - id: F003
+    title: 体现业务闭环
+    description: 功能设计需覆盖输入、处理、输出、结果处理与异常分支。
+    priority: high
+    enabled: true
